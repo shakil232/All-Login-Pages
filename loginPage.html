@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- all meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- project title -->
+    <title>Document</title>
+
+    <!-- all css Links -->
+    <link rel="stylesheet" href="loginPage.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<body>
+    
+        <div class="contact-background ">
+            
+            <div class="container">
+                <div class="pb-5">
+                    <div class="mx-auto rounded mt-5 my-3 p-3 px-4 col-md-6">
+
+                        <h2 class="text-center mb-4 text-white"> Get In Touch</h2>
+                        <form onSubmit={sendMail}>
+
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="subject" placeholder="Subject" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" rows="4" placeholder="Your Message"
+                                class="form-control"></textarea>
+                            </div>
+
+                            <div class="text-center form-group col-sm-12">
+                                <input type="submit" class="submitMail-btn form-control" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+
+
+    <!-- bootstrap-js-bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
