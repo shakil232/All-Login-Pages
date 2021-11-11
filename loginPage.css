@@ -262,11 +262,11 @@ a {
 
 button {
 	border-radius: 20px!important;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
-	/* color: #FFFFFF;
+	border: 1px solid blueviolet;
+	background-color: blueviolet;
+	/* color: #FFFFFF; */
 	font-size: 12px;
-	font-weight: bold; */
+	/* font-weight: bold; */
 	padding: 12px 45px;
 	letter-spacing: 1px !important;
 	/* text-transform: uppercase; */
